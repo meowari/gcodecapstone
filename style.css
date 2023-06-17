@@ -1,0 +1,8 @@
+*{
+    box-sizing:border-box;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px
+}
