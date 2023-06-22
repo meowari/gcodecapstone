@@ -2,7 +2,142 @@
     box-sizing:border-box;
 }
 
-nav ul li {
-    display: inline;
-    margin-right: 20px
+h2{
+  text-align:center;
+  color:rgb(211, 52, 255);
+  font-size: 35px;
+  font-family:"montserrat", Helvetica, Helvetica,Arial, sans-serif;
+}
+
+/*navbar*/
+
+#navbar{
+    background-color:orange;
+    height:90px; 
+    width:100%;
+    display:flex; 
+    align-items:center; 
+    justify-content:space-between;
+    font-family:"montserrat", Helvetica, Helvetica,Arial, sans-serif;
+}
+
+label.logo{
+    color:green;
+    font-weight: bolder;
+    font-size: 18px;
+    line-height: 3.5;
+    padding:0px;
+}
+
+#navbar ul{
+    display: flex;
+}
+
+#navbar li {
+    padding: 30px 60px;
+    font-size: 20px;
+    list-style-type: none;
+}
+
+#navbar li a{
+    color: #75739e;
+    font-weight: bolder;
+}
+#navbar li a:hover{
+    color: var(--hovercolor);
+}
+
+/*fix media query so that the nav bar is fully when smaller pixels*/
+@media all and (max-width: 800px) {
+    #navbar {
+      justify-content: space-around;
+    }
+  }
+  
+  @media all and (max-width: 600px) {
+    #navbar {
+      flex-flow: column wrap;
+      padding: 0;
+    }
+    #navbar a { 
+      text-align: center; 
+      padding: 10px;
+      border-top: 1px solid rgba(255, 255, 255,0.3); 
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
+    }
+    #navbar li:last-of-type a {
+      border-bottom: none;
+    }
+  }
+
+/*Home-Page: Our Mission*/
+
+.container {
+    position: relative;
+    text-align: center;
+    color:orange;
+  }
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size:35px;
+    border:solid white;
+    opacity: 80%;
+    padding:10px;
+    border-radius:20px;
+    background:white;
+  }
+
+/*Home-Page: What We Do Section*/
+
+.activities-img {
+    height:200px;
+    width:300px;
+    border-radius:50%;
+}
+
+/*Home-Page: Regions Section*/
+
+.regions-img {
+    height:400px;
+    width:500px;
+}
+
+#region{
+  font-size:18px;
+  font-family:"montserrat", Helvetica, Helvetica,Arial, sans-serif;
+}
+
+/*contact page*/
+
+
+
+/* Footer styles */
+footer {
+  background-color: #e7b7b7;
+  padding: 10px;
+  text-align: center;
+}
+
+.social-media-links {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.social-media-links li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-media-links li a {
+  text-decoration: none;
+  color: #e7bbbb;
+}
+
+footer p {
+  margin: 10px 0;
 }
