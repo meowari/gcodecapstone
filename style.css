@@ -48,9 +48,10 @@ p{
 #navbar li a{
     color: #75739e;
     font-weight: bolder;
+    text-decoration: none;
 }
 #navbar li a:hover{
-    color: var(--hovercolor);
+    color: rgb(250, 82, 110);
 }
 
 /*fix media query so that the nav bar is fully when smaller pixels*/
@@ -138,8 +139,8 @@ p{
 /*Home-Page: Regions Section*/
 
 .regions-img {
-  height:400px;
-  width:500px;
+  height:auto;
+  max-width:80%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -151,33 +152,56 @@ p{
   text-align: center;
 }
 
+/*About*/
+.doctor-child{
+  height:auto;
+  width:100%;
+}
+
 /*contact page*/
-
-
+.contact-img{
+  width:100%;
+  height:20%;
+}
 
 /* Footer styles */
 footer {
-  background-color: #e7b7b7;
-  padding: 10px;
-  text-align: center;
+  background-color: #f2cece;
+  width:100%;
+  text-align:center;
+  padding-top:40px;
 }
 
-.social-media-links {
-  list-style: none;
-  padding: 0;
-  margin: 10px 0;
+.footer-links ul{
+  display: flex;
+  justify-content: space-between;
+  max-width:60%;
 }
 
-.social-media-links li {
-  display: inline-block;
-  margin-right: 10px;
+.footer-links li {
+  font-size: 1rem;
+  list-style-type: none;
+  font-size: 18px;
 }
 
-.social-media-links li a {
+.footer-links a{
+  text-decoration-line: none;
+  color:#75739e;
+}
+
+.footer-links a:hover{
+  color:rgb(250, 82, 110);
+}
+
+.footer-social a:hover{
+  color:orange;
+}
+
+.footer-social a {
   text-decoration: none;
-  color: #e7bbbb;
+  color:rgb(250, 82, 110);
 }
 
-footer p {
-  margin: 10px 0;
+.incorporated{
+  font-size: 12px;
 }
