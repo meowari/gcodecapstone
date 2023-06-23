@@ -36,10 +36,35 @@
                 <img src="https://www.nemours.org/content/dam/nemours/nemours-org/en/photography/block-transplant-doctor-high-five-boy-with-mom.jpg" class="contact-img" alt="Parent and child getting discharged"/>
                 <div class="centered">Keep In Touch</div>
             </div>
-        <p>We are a non-profit organization and any types of donations are greatly appreciated. Please let us know if you would like to contribute. If you have any questions in regards to our organization, please feel free to reach out to us. We will keep in touch!</p>
+        <p class="contact-description">We are a non-profit organization and any types of donations are greatly appreciated. Please let us know if you would like to contribute. If you have any questions in regards to our organization, please feel free to reach out to us. We will keep in touch!</p>
     </div>
-    <form>
+    <!--form added check things-->
+    <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+        
+        <div class="fcf-form-group">
+            <label for="Name" class="fcf-label">Full Name (First, Last)</label>
+            <div class="fcf-input-group">
+                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+            </div>
+        </div>
 
+        <div class="fcf-form-group">
+            <label for="Email" class="fcf-label">Your email address</label>
+            <div class="fcf-input-group">
+                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <label for="Message" class="fcf-label">Your message</label>
+            <div class="fcf-input-group">
+                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+        </div>
     </form>
     <div>
         <p>Follow us on social media to keep posted on what we are doing!</p>
@@ -47,20 +72,20 @@
     <div class="address">
         <h2>Addresses</h2>
         <div class="address-info">
-            <h4>Headquarters (Texas):</h4>
+            <h5>Headquarters (Texas):</h5>
             <p>1340 Lemon Ave. #300 Houston, TX 68492</p>
         </div>
         <div class="address-info">
-            <h4>Sister Office (Massachussettes):</h4>
+            <h5>Sister Office (Massachussettes):</h5>
             <p>20 North St. Boston, MA 02215</p>
         </div>
         <div class="address-info">
-            <h4>Sister Office (California):</h4>
+            <h5>Sister Office (California):</h5>
             <p>1200 Orange St. #400 Garden Grove, CA 92656</p>
         </div>
     </div>
     <h2>Whistleblower Policy</h2>
-        <p>Any person wishing to contact the audit committee of the board of Roots for Joy, in confidence, regarding accounting, internal control, auditing, governance or any matters related to the operations of Roots for Joy may send an e-mail message to rootsforjoy.auditcommittee@gmail.com. Only members of the audit committee, who are independent of the management of Roots for Joy, have access to this e-mail account.</p>
+        <p class="wb-policy">Any person wishing to contact the audit committee of the board of Roots for Joy, in confidence, regarding accounting, internal control, auditing, governance or any matters related to the operations of Roots for Joy may send an e-mail message to rootsforjoy.auditcommittee@gmail.com. Only members of the audit committee, who are independent of the management of Roots for Joy, have access to this e-mail account.</p>
     <footer>
         <div class="footer-links">
             <ul>
