@@ -183,6 +183,7 @@ p{
   text-align: center;
   border: solid orange;
   padding: 20px;
+  margin: 0px auto 10px;
   width:fit-content;
 }
 
@@ -396,7 +397,7 @@ footer {
 .footer-links ul{
   display: flex;
   justify-content: space-between;
-  max-width:60%;
+  max-width:75%;
   margin: 0 auto;
 }
 
