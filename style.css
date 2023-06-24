@@ -208,6 +208,7 @@ p{
   font-family: "montserrat", Helvetica, Helvetica,Arial, sans-serif;
   font-size:20px;
   color:rgb(255, 255, 255);
+  display:inline;
 }
 
 /*Contact Page*/
@@ -224,6 +225,7 @@ p{
 .address-info p{
   text-align: left;
   color:rgb(81, 80, 80);
+  margin-right: 10px;
 }
 
 h5{
@@ -250,6 +252,20 @@ h5{
 .socials p{
   font-family:"montserrat", Helvetica, Helvetica,Arial, sans-serif;
   text-align:center;
+}
+
+.socials a{
+  color:#545b62;
+}
+
+.socials a:hover{
+  color:orange;
+}
+
+.healthworker{
+  width:100%;
+  height:auto;
+  margin-top:40px;
 }
 
 /*Volunteer Page*/
