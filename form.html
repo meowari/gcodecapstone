@@ -31,11 +31,36 @@
             </ul>
     </nav>
     <img src="https://www.s-choa.choa.org/-/media/Images/Childrens/global/heros/donors-and-volunteers/volunteers/volunteers/volunteer-reading-at-pediatric-hospital-1440x748.jpg?h=748&la=en&w=1440&hash=AA7FBB0EE0524C7F65033E56153949EAF72122A3" class="volunteer-img" alt="volunteers reading book to patient"/>
-    <p>
+    <p class="volunteer">
         We are actively recruiting volunteers to help run our activities for the children in our program! Please feel free to email us or fill out the form below if you are interested!
     </p>
-    <form>
+    <!--form added check things-->
+    <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+        <h3>Inquiry Form</h3>
+        <div class="fcf-form-group">
+            <label for="Name" class="fcf-label">Full Name (First, Last)</label>
+            <div class="fcf-input-group">
+                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+            </div>
+        </div>
 
+        <div class="fcf-form-group">
+            <label for="Email" class="fcf-label">Your email address</label>
+            <div class="fcf-input-group">
+                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <label for="Message" class="fcf-label">Your message</label>
+            <div class="fcf-input-group">
+                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+        </div>
     </form>
     <footer>
         <div class="footer-links">
