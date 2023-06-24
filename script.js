@@ -15,3 +15,5 @@ function myFunction() {
     navbar.classList.remove("sticky");
   }
 }
+
+//TO Birti: Start the Our impact JavaScript Here! Thank yoU!
