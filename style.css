@@ -205,13 +205,14 @@ p{
 }
 
 h5{
-  text-align:center;
+  text-align:left;
   font-size:18px;
   color:rgb(250, 82, 110);
   border:solid;
   border-color:rgb(250, 202, 113);
   background-color: rgb(250, 202, 113);
   padding:15px;
+  margin:0 auto 20px;
   width:fit-content;
   font-family:"montserrat", Helvetica, Helvetica,Arial, sans-serif;
 }
@@ -221,6 +222,7 @@ h5{
   padding:60px;
   border-color:orange;
   width:80%;
+  margin: 10px auto 20px;
   text-align:center;
 }
 
